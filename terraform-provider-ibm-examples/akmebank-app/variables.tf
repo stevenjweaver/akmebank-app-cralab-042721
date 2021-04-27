@@ -53,3 +53,11 @@ variable "ibmcloud_apikey" {
 variable "resource_group_id" {
   description = "Enter your IBM resource group ID"
 }
+
+variable "plan" {
+  default = "test"
+}
+
+variable "tags" {
+  default = "test"
+}
