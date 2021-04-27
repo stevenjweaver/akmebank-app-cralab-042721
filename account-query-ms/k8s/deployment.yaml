@@ -16,7 +16,7 @@ spec:
       labels:
         app: account-query-selector
     spec:
-      hostNetwork: true
+      hostNetwork: false
       containers:
       - name: account-query
         image: IMAGE_AND_TAG
