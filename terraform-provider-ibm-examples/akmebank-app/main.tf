@@ -103,7 +103,7 @@ resource "ibm_cos_bucket" "standard-ams05" {
   resource_instance_id = "${ibm_resource_instance.cos_instance.id}"
   region_location      = "us-east"
   storage_class        = "standard"
-  #key_protect          = "${ibm_kp_key.cos_encrypt.id}" #remove this line to trigger an alert
+  key_protect          = "${ibm_kp_key.cos_encrypt.id}" #remove this line to trigger an alert
 }
 
 
@@ -122,7 +122,7 @@ resource "ibm_cis" "demo_web_domain" {
 resource "ibm_cis_domain_settings" "demo_web_domain" {
   cis_id          = "${ibm_cis.demo_web_domain.id}"
   domain_id       = "${ibm_cis_domain.demo_web_domain.id}"
-  waf             = "off" #set this off to trigger an alert
+  waf             = "on" #set this off to trigger an alert
   ssl             = "full"
   min_tls_version = "1.2"
 }
