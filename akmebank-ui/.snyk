@@ -10,3 +10,5 @@ patch:
         patched: '2021-04-27T14:47:33.727Z'
     - pug > pug-code-gen > pug-attrs > constantinople > babel-types > lodash:
         patched: '2021-04-27T14:47:33.727Z'
+    - snyk > snyk-nodejs-lockfile-parser > @yarnpkg/core > lodash:
+        patched: '2021-04-27T15:00:28.182Z'
