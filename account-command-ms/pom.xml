@@ -62,7 +62,7 @@
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-resteasy-jackson</artifactId>
-      <version>1.13.2</version>
+      <version>1.13.3.Final</version>
     </dependency>
     <dependency>
       <groupId>org.akme</groupId>
