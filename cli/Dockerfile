@@ -1,4 +1,4 @@
-FROM node:12.22.1-buster-slim
+FROM node:erbium-buster-slim
 
 WORKDIR "/tools"
 ADD . /tools
