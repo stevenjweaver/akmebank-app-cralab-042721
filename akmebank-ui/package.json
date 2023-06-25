@@ -24,18 +24,18 @@
   "dependencies": {
     "acorn": "^5.7.4",
     "axios": "^0.21.1",
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.19.2",
     "connect-ensure-login": "^0.1.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-session": "^1.17.1",
     "kind-of": "^6.0.3",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "mkdirp": "^1.0.4",
     "morgan": "^1.10.0",
-    "passport": "^0.4.1",
+    "passport": "^0.6.0",
     "passport-local": "^1.0.0",
     "pug": "^3.0.2",
-    "snyk": "^1.568.0"
+    "snyk": "^1.685.0"
   },
   "resolutions": {
     "mkdirp": "^1.0.3",
