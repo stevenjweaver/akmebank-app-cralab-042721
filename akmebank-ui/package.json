@@ -26,7 +26,7 @@
     "axios": "^0.21.1",
     "body-parser": "^1.19.0",
     "connect-ensure-login": "^0.1.1",
-    "express": "^4.17.1",
+    "express": "^4.19.2",
     "express-session": "^1.17.1",
     "kind-of": "^6.0.3",
     "minimist": "^1.2.5",
